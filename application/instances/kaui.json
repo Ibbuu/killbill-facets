@@ -36,7 +36,7 @@
       "release": {
         "strategy": "RollingUpdate",
         "build": {
-          "image": "313496281593.dkr.ecr.us-east-1.amazonaws.com/facets/facets-demo1/app:facets9"
+          "image": "313496281593.dkr.ecr.us-east-1.amazonaws.com/facets/kb-facets/kaui:2.0.9"
         }
       },
       "runtime": {
