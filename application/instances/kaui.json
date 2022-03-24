@@ -28,8 +28,8 @@
         "rules": [
           {
             "ingress": "ingress",
-            "path": "/kaui",
-            "portName": "port9090"
+            "path": "/",
+            "portName": "port8080"
           }
         ]
       },
@@ -51,8 +51,8 @@
         },
         "ports": [
           {
-            "name": "port9090",
-            "port": 9090
+            "name": "port8080",
+            "port": 8080
           }
         ]
       }

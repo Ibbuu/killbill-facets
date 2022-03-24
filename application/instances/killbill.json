@@ -21,13 +21,7 @@
         }
       },
       "loadbalancing": {
-        "rules": [
-          {
-            "ingress": "ingress",
-            "path": "/",
-            "portName": "port8080"
-          }
-        ]
+        "rules": []
       },
       "release": {
         "strategy": "RollingUpdate",
