@@ -24,7 +24,7 @@
         "rules": [
           {
             "ingress": "ingress",
-            "path": "/index.html",
+            "path": "/*",
             "portName": "port8080"
           }
         ]
