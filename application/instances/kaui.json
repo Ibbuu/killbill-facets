@@ -29,7 +29,8 @@
           {
             "ingress": "ingress",
             "path": "/",
-            "portName": "port8080"
+            "portName": "port8080",
+            "domainPrefix": "kaui"
           }
         ]
       },

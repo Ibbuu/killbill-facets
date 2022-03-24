@@ -24,8 +24,9 @@
         "rules": [
           {
             "ingress": "ingress",
-            "path": "/*",
-            "portName": "port8080"
+            "path": "/",
+            "portName": "port8080",
+            "domainPrefix": "killbill"
           }
         ]
       },
