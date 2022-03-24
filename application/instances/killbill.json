@@ -21,7 +21,13 @@
         }
       },
       "loadbalancing": {
-        "rules": []
+        "rules": [
+          {
+            "ingress": "ingress",
+            "path": "/killbill",
+            "portName": "port8080"
+          }
+        ]
       },
       "release": {
         "strategy": "RollingUpdate",
