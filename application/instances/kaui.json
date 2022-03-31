@@ -8,16 +8,18 @@
     "spec": {
       "env": {
         "KAUI_CONFIG_DAO_PASSWORD": {
-          "type": "static",
-          "default": "killbill"
+          "type": "credential",
+          "permissionName": "killbill-permissions",
+          "attribute": "password"
         },
         "KAUI_CONFIG_DAO_URL": {
           "type": "static",
-          "default": "jdbc:mysql://db:3306/kaui"
+          "default": "jdbc:mysql://killbill-db:3306/kaui"
         },
         "KAUI_CONFIG_DAO_USER": {
-          "type": "static",
-          "default": "root"
+          "type": "credential",
+          "permissionName": "killbill-permissions",
+          "attribute": "userName"
         },
         "KAUI_KILLBILL_URL": {
             "type": "static",
