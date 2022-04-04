@@ -35,7 +35,7 @@
       "permission": [
         {
           "name": "killbill-permissions",
-          "resourceType": "aurora",
+          "resourceType": "mysql",
           "resourceName": "killbill-db",
           "permission": "READ_WRITE"
         }
