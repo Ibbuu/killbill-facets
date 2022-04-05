@@ -1,5 +1,5 @@
 {
-    "$schema": "..\\..\\job.schema",
+    "$schema": "https://docs.facets.cloud/schemas/jobs/instances/job.schema",
     "apiVersion": "v2",
     "disabled": false,
     "kind": "facets.modules.common.application.job",
