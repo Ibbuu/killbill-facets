@@ -42,7 +42,8 @@
                 "min": 1
             },
             "size": {
-                "value": "small"
+                "value": "small",
+                "namespace": "GP"
             }
         }
     }
