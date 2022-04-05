@@ -1,0 +1,50 @@
+{
+    "$schema": "..\\..\\job.schema",
+    "apiVersion": "v2",
+    "disabled": false,
+    "kind": "facets.modules.common.application.job",
+    "metadata": {},
+    "spec": {
+        "env": {
+            "MYSQL_PASSWORD": {
+                "type": "credential",
+                "permissionName": "killbill-permissions",
+                "attribute": "password"
+              },
+              "MYSQL_HOST": {
+                "type": "static",
+                "default": "killbill-db:3306"
+              },
+              "MYSQL_USER": {
+                "type": "credential",
+                "permissionName": "killbill-permissions",
+                "attribute": "userName"
+              }
+        },
+        "permission": [
+            {
+                "name": "killbill-permissions",
+                "resourceType": "mysql",
+                "resourceName": "killbill-db",
+                "permission": "READ_WRITE"
+            }
+        ],
+        "release": {
+            "build": {
+                "image": "313496281593.dkr.ecr.us-east-1.amazonaws.com/facets/kb-facets/mysql:1"
+            },
+            "strategy": "RollingUpdate"
+        },
+        "runtime": {
+            "autoscaling": {
+                "cpuThreshold": "50",
+                "max": 2,
+                "min": 1
+            },
+            "size": {
+                "namespace": "GP",
+                "value": "small"
+            }
+        }
+    }
+}
