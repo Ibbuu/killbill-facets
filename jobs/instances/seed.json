@@ -42,7 +42,6 @@
                 "min": 1
             },
             "size": {
-                "namespace": "GP",
                 "value": "small"
             }
         }
