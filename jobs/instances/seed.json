@@ -36,11 +36,6 @@
             "strategy": "RollingUpdate"
         },
         "runtime": {
-            "autoscaling": {
-                "cpuThreshold": "50",
-                "max": 2,
-                "min": 1
-            },
             "size": {
                 "value": "small"            }
         }
