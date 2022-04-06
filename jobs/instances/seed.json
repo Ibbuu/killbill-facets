@@ -13,7 +13,7 @@
               },
               "MYSQL_HOST": {
                 "type": "static",
-                "default": "killbill-db:3306"
+                "default": "killbill-db"
               },
               "MYSQL_USER": {
                 "type": "credential",
