@@ -13,7 +13,7 @@
               },
               "MYSQL_HOST": {
                 "type": "static",
-                "default": "killbill-db"
+                "default": "killbill-db1"
               },
               "MYSQL_USER": {
                 "type": "credential",
@@ -25,14 +25,14 @@
             {
                 "name": "killbill-permissions",
                 "resourceType": "mysql",
-                "resourceName": "killbill-db",
+                "resourceName": "killbill-db1",
                 "permission": "MANAGEMENT"
                 
             }
         ],
         "release": {
             "build": {
-                "image": "313496281593.dkr.ecr.us-east-1.amazonaws.com/facets/kb-facets/mysql:9"
+                "image": "313496281593.dkr.ecr.us-east-1.amazonaws.com/facets/kb-facets/mysql:10"
             },
             "strategy": "RollingUpdate"
         },
