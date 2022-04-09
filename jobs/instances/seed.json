@@ -13,7 +13,7 @@
               },
               "MYSQL_HOST": {
                 "type": "static",
-                "default": "killbill-db"
+                "default": "killbill-db1"
               },
               "MYSQL_USER": {
                 "type": "credential",
@@ -25,7 +25,7 @@
             {
                 "name": "killbill-permissions",
                 "resourceType": "mysql",
-                "resourceName": "killbill-db",
+                "resourceName": "killbill-db1",
                 "permission": "MANAGEMENT"
                 
             }

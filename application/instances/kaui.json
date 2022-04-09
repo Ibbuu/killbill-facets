@@ -14,7 +14,7 @@
         },
         "KAUI_CONFIG_DAO_URL": {
           "type": "static",
-          "default": "jdbc:mysql://killbill-db:3306/kaui"
+          "default": "jdbc:mysql://killbill-db1:3306/kaui"
         },
         "KAUI_CONFIG_DAO_USER": {
           "type": "credential",
@@ -40,7 +40,7 @@
         {
           "name": "killbill-permissions",
           "resourceType": "mysql",
-          "resourceName": "killbill-db",
+          "resourceName": "killbill-db1",
           "permission": "READ_WRITE"
         }
       ],

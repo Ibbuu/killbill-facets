@@ -14,7 +14,7 @@
         },
         "KILLBILL_DAO_URL": {
           "type": "static",
-          "default": "jdbc:mysql://killbill-db:3306/killbill"
+          "default": "jdbc:mysql://killbill-db1:3306/killbill"
         },
         "KILLBILL_DAO_USER": {
           "type": "credential",
@@ -36,7 +36,7 @@
         {
           "name": "killbill-permissions",
           "resourceType": "mysql",
-          "resourceName": "killbill-db",
+          "resourceName": "killbill-db1",
           "permission": "READ_WRITE"
         }
       ],
