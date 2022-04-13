@@ -14,7 +14,7 @@
       },
       "KILLBILL_DAO_URL": {
         "type": "static",
-        "default": "jdbc:mysql://killbill-db:3306/killbill?allowPublicKeyRetrieval=true&useSSL=false"
+        "default": "jdbc:mysql://killbill-db:3306/killbill?usePipelineAuth=false&useBatchMultiSend=false"
       },
       "KILLBILL_DAO_USER": {
         "type": "credential",

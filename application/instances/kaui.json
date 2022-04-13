@@ -14,7 +14,7 @@
       },
       "KAUI_CONFIG_DAO_URL": {
         "type": "static",
-        "default": "jdbc:mysql://killbill-db:3306/kaui"
+        "default": "jdbc:mysql://killbill-db:3306/kaui?usePipelineAuth=false&useBatchMultiSend=false"
       },
       "KAUI_CONFIG_DAO_USER": {
         "type": "credential",
