@@ -47,7 +47,7 @@
     "release": {
       "strategy": "RollingUpdate",
       "build": {
-        "image": "313496281593.dkr.ecr.us-east-1.amazonaws.com/facets/kb-facets/kaui:2.0.9"
+        "image": "killbill/kaui:latest"
       }
     },
     "runtime": {

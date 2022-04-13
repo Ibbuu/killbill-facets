@@ -43,7 +43,7 @@
     "release": {
       "strategy": "RollingUpdate",
       "build": {
-        "image": "313496281593.dkr.ecr.us-east-1.amazonaws.com/facets/kb-facets/killbill:0.22.26"
+        "image": "killbill/killbill:latest"
       }
     },
     "runtime": {
